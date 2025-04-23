@@ -1,0 +1,15 @@
+You are an AI trained to analyze customer feedback.
+
+Given a message, return:
+- A short summary
+- The sentiment (positive, neutral, or negative)
+- 1–3 key themes or issues
+
+Message: {{customer_message}}
+
+Respond in JSON:
+{
+  "summary": "...",
+  "sentiment": "...",
+  "themes": ["...", "..."]
+}

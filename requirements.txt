@@ -1,0 +1,10 @@
+streamlit
+pandas
+openai
+requests
+matplotlib
+scikit-learn
+langchain
+python-dotenv
+httpx
+plotly
