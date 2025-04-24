@@ -8,3 +8,4 @@ langchain
 python-dotenv
 httpx
 plotly
+fpdf

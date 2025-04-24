@@ -1,0 +1,416 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>timestamp</th>
+      <th>language</th>
+      <th>source</th>
+      <th>message</th>
+      <th>summary</th>
+      <th>sentiment</th>
+      <th>themes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2025-02-15T10:23:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I can’t log into my account—keeps saying invalid credentials.</td>
+      <td>Customer unable to log into account due to invalid credentials.</td>
+      <td>Negative</td>
+      <td>login issue, invalid credentials</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2025-02-16T14:45:00Z</td>
+      <td>fr</td>
+      <td>chat</td>
+      <td>Le site est très lent lorsque je charge la page d’accueil.</td>
+      <td>The website is very slow to load the homepage.</td>
+      <td>Negative</td>
+      <td>Website speed, Homepage loading</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2025-02-17T09:12:00Z</td>
+      <td>en</td>
+      <td>survey</td>
+      <td>I love the new dashboard but wish there were more filter options.</td>
+      <td>Positive feedback with a suggestion for improvement</td>
+      <td>Positive</td>
+      <td>new dashboard, filter options</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2025-02-18T16:30:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No recibo notificaciones por correo después de actualizar mi plan.</td>
+      <td>Customer not receiving email notifications after plan update.</td>
+      <td>Negative</td>
+      <td>Email notifications not received, Issues after plan update</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2025-02-19T11:05:00Z</td>
+      <td>en</td>
+      <td>chat</td>
+      <td>The pricing page is confusing—hard to tell what’s included.</td>
+      <td>Confusion with pricing information</td>
+      <td>Negative</td>
+      <td>Confusing pricing page, Lack of clarity on what's included</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2025-02-20T13:15:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’ai besoin d’aide pour réinitialiser mon mot de passe.</td>
+      <td>Error</td>
+      <td>Neutral</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2025-02-21T08:45:00Z</td>
+      <td>es</td>
+      <td>survey</td>
+      <td>La aplicación se bloquea a menudo en mi teléfono.</td>
+      <td>The app frequently crashes on my phone.</td>
+      <td>Negative</td>
+      <td>Crashing, App Stability</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2025-02-22T15:00:00Z</td>
+      <td>en</td>
+      <td>chat</td>
+      <td>Can you add a dark mode option? It’s hard on the eyes at night.</td>
+      <td>Customer is requesting a dark mode option due to eye strain at night.</td>
+      <td>Negative</td>
+      <td>Dark mode request, Eye strain</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>2025-02-23T12:30:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>Le support technique est très réactif, merci !</td>
+      <td>Highly responsive technical support</td>
+      <td>Positive</td>
+      <td>responsive support, gratitude</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>2025-02-24T17:00:00Z</td>
+      <td>es</td>
+      <td>chat</td>
+      <td>Me gustaría ver más tutoriales en video sobre el uso de la plataforma.</td>
+      <td>Customer requests more video tutorials for platform usage.</td>
+      <td>Positive</td>
+      <td>video tutorials, platform usage</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>2025-02-25T10:00:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I need to change my billing information but can’t find where to do it.</td>
+      <td>Customer is having difficulty finding where to change billing information.</td>
+      <td>Negative</td>
+      <td>Billing information update issue, User interface confusion</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2025-02-26T14:20:00Z</td>
+      <td>fr</td>
+      <td>survey</td>
+      <td>L’interface utilisateur est très intuitive et facile à naviguer.</td>
+      <td>Highly intuitive and easy-to-navigate user interface.</td>
+      <td>Positive</td>
+      <td>Ease of use, Intuitive design</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>2025-02-27T09:50:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No puedo encontrar la opción para cancelar mi suscripción.</td>
+      <td>Customer is having trouble finding the option to cancel their subscription.</td>
+      <td>Negative</td>
+      <td>Subscription cancellation difficulty</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2025-02-28T16:10:00Z</td>
+      <td>en</td>
+      <td>chat</td>
+      <td>The app crashes when I try to upload a file larger than 10MB.</td>
+      <td>App crashes when uploading large files</td>
+      <td>Negative</td>
+      <td>app stability, file size limit, upload functionality</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>2025-03-01T11:40:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’aimerais avoir plus d’options de personnalisation dans l’application.</td>
+      <td>Customer wants more customization options in the application.</td>
+      <td>Positive</td>
+      <td>customization options, application features</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>2025-03-02T13:55:00Z</td>
+      <td>es</td>
+      <td>chat</td>
+      <td>El proceso de registro es demasiado largo y complicado.</td>
+      <td>Long and complicated registration process.</td>
+      <td>Negative</td>
+      <td>Lengthy process, Complexity</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>2025-03-03T08:25:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I received a charge I didn’t authorize—please investigate.</td>
+      <td>Unauthorized charge issue reported.</td>
+      <td>Negative</td>
+      <td>Unauthorized charge, Investigation request</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>2025-03-04T15:35:00Z</td>
+      <td>fr</td>
+      <td>survey</td>
+      <td>Le service client est très utile et répond rapidement.</td>
+      <td>Excellent customer service</td>
+      <td>Positive</td>
+      <td>Helpful customer service, Quick response time</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>2025-03-05T10:15:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No entiendo cómo funciona el sistema de puntos de recompensa.</td>
+      <td>Customer confusion with the reward points system.</td>
+      <td>Negative</td>
+      <td>confusion, reward points system</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>2025-03-06T14:50:00Z</td>
+      <td>en</td>
+      <td>chat</td>
+      <td>Can you provide more details on the new features in the latest update?</td>
+      <td>Customer is inquiring about more details on the new features in the latest update.</td>
+      <td>Neutral</td>
+      <td>Feature details request</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>2025-03-07T09:05:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’ai des problèmes de connexion avec l’application mobile.</td>
+      <td>User is experiencing connectivity issues with the mobile application.</td>
+      <td>Negative</td>
+      <td>connectivity problems, mobile app</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>2025-03-08T16:45:00Z</td>
+      <td>es</td>
+      <td>survey</td>
+      <td>La calidad del audio en las llamadas es muy baja.</td>
+      <td>Poor audio quality during calls.</td>
+      <td>Negative</td>
+      <td>Audio quality, Call experience</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>2025-03-09T11:30:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I want to know how to export my data from the platform.</td>
+      <td>Customer is seeking information on how to export data from the platform.</td>
+      <td>Neutral</td>
+      <td>Data export process, Platform functionality</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2025-03-10T13:40:00Z</td>
+      <td>fr</td>
+      <td>chat</td>
+      <td>Le site web est souvent en panne, c’est très frustrant.</td>
+      <td>Frequent website outages causing frustration</td>
+      <td>Negative</td>
+      <td>website downtime, frustration</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>2025-03-11T08:55:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No puedo acceder a mi cuenta desde la aplicación móvil.</td>
+      <td>Issue with accessing account on mobile app</td>
+      <td>Negative</td>
+      <td>Account access issue, Mobile app functionality</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>2025-03-12T15:20:00Z</td>
+      <td>en</td>
+      <td>survey</td>
+      <td>The new feature is great, but it’s a bit slow to load.</td>
+      <td>Overall positive feedback with a potential performance issue.</td>
+      <td>Positive</td>
+      <td>New feature satisfaction, Performance speed</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>2025-03-13T10:10:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’aimerais avoir plus de choix de langues dans l’application.</td>
+      <td>Customer wants more language options in the application.</td>
+      <td>Positive</td>
+      <td>language options, application features</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>2025-03-14T14:30:00Z</td>
+      <td>es</td>
+      <td>chat</td>
+      <td>El soporte técnico no responde a mis correos electrónicos.</td>
+      <td>Technical support is unresponsive to emails.</td>
+      <td>Negative</td>
+      <td>poor customer service, lack of responsiveness</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>2025-03-15T09:55:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I need help with my account settings but can’t find the right section.</td>
+      <td>Customer needs assistance with account settings.</td>
+      <td>Negative</td>
+      <td>Difficulty in finding account settings section</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>2025-03-16T16:05:00Z</td>
+      <td>fr</td>
+      <td>survey</td>
+      <td>L’application est très utile pour mon travail quotidien.</td>
+      <td>The application is very helpful for my daily work.</td>
+      <td>Positive</td>
+      <td>useful for daily work</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>2025-03-17T11:25:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No puedo actualizar mi información de pago en la cuenta.</td>
+      <td>Customer unable to update payment information on account.</td>
+      <td>Negative</td>
+      <td>payment information update issue, account management problem</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>2025-03-18T13:45:00Z</td>
+      <td>en</td>
+      <td>chat</td>
+      <td>The notifications are too frequent—can I adjust the settings?</td>
+      <td>User is concerned about the frequency of notifications and wants to adjust settings.</td>
+      <td>Neutral</td>
+      <td>frequency of notifications, settings adjustment</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>2025-03-19T08:35:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’ai besoin d’aide pour configurer mon compte.</td>
+      <td>Customer needs help setting up their account.</td>
+      <td>Neutral</td>
+      <td>account setup, assistance needed</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>2025-03-20T15:50:00Z</td>
+      <td>es</td>
+      <td>survey</td>
+      <td>La aplicación se cierra inesperadamente al abrirla.</td>
+      <td>The application unexpectedly closes upon opening.</td>
+      <td>Negative</td>
+      <td>App crashing, Unexpected closure</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>2025-03-21T10:40:00Z</td>
+      <td>en</td>
+      <td>email</td>
+      <td>I want to know if there’s a way to recover deleted files.</td>
+      <td>Customer is seeking assistance with recovering deleted files.</td>
+      <td>Neutral</td>
+      <td>data recovery, file restoration</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>2025-03-22T14:10:00Z</td>
+      <td>fr</td>
+      <td>chat</td>
+      <td>Le processus de paiement est très compliqué et long.</td>
+      <td>Payment process is complicated and lengthy.</td>
+      <td>Negative</td>
+      <td>Complicated process, Long duration</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>2025-03-23T09:20:00Z</td>
+      <td>es</td>
+      <td>email</td>
+      <td>No entiendo cómo funciona el sistema de referidos.</td>
+      <td>Customer is confused about how the referral system works.</td>
+      <td>Negative</td>
+      <td>Confusion, Referral system</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>2025-03-24T16:25:00Z</td>
+      <td>en</td>
+      <td>survey</td>
+      <td>The customer support is very helpful and responsive.</td>
+      <td>Positive feedback on customer support</td>
+      <td>Positive</td>
+      <td>helpful support, responsive service</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>2025-03-25T11:15:00Z</td>
+      <td>fr</td>
+      <td>email</td>
+      <td>J’aimerais avoir plus d’options de tri dans les rapports.</td>
+      <td>Customer requested more sorting options in reports.</td>
+      <td>Positive</td>
+      <td>report features, sorting options</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>2025-03-26T13:35:00Z</td>
+      <td>es</td>
+      <td>chat</td>
+      <td>El sitio web es muy lento y a veces no carga.</td>
+      <td>Website speed and loading issues</td>
+      <td>Negative</td>
+      <td>website speed, loading issues</td>
+    </tr>
+  </tbody>
+</table>
