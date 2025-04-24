@@ -10,7 +10,7 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Load prompt template
-with open("ai-feedback-insight-system-/prompts/insight_prompt.txt", "r") as file:
+with open("/ai-feedback-insight-system-/prompts/insight_prompt.txt", "r") as file:
     prompt_template = file.read()
 
 def get_insight(message: str) -> dict:
